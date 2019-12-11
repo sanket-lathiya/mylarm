@@ -1,0 +1,504 @@
+17 Nov 2019 07:48:03 : [info] : Listening on port 4000
+17 Nov 2019 07:48:03 : [info] : Connection has been established successfully.
+19 Nov 2019 14:46:00 : [info] : Listening on port 4000
+19 Nov 2019 14:46:00 : [info] : Connection has been established successfully.
+19 Nov 2019 16:23:40 : [error] : ERROR ... TokenExpiredError: jwt expired
+20 Nov 2019 16:50:43 : [info] : Listening on port 4000
+20 Nov 2019 16:50:43 : [info] : Connection has been established successfully.
+21 Nov 2019 11:27:50 : [info] : Listening on port 4000
+21 Nov 2019 11:27:50 : [info] : Connection has been established successfully.
+21 Nov 2019 14:02:23 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 14:32:23 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 15:01:55 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 15:31:53 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 15:53:30 : [error] : uncaughtException: Business_Entry_Images is not defined
+ReferenceError: Business_Entry_Images is not defined
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/models/business-manager/Business_Entries.js:15:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/controllers/business-manager/BusinessController.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/config/router.js:6:28)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+21 Nov 2019 15:57:42 : [error] : uncaughtException: Business_Entry_Images is not defined
+ReferenceError: Business_Entry_Images is not defined
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/models/business-manager/Business_Entries.js:15:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/controllers/business-manager/BusinessController.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/My Manager/Backend/src/config/router.js:6:28)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+21 Nov 2019 15:58:59 : [info] : Listening on port 4000
+21 Nov 2019 15:58:59 : [info] : Connection has been established successfully.
+21 Nov 2019 16:52:09 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 17:22:23 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 18:02:01 : [info] : Listening on port 4000
+21 Nov 2019 18:02:01 : [info] : Connection has been established successfully.
+21 Nov 2019 18:21:44 : [info] : Listening on port 4000
+21 Nov 2019 18:21:44 : [info] : Connection has been established successfully.
+21 Nov 2019 19:00:13 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 19:30:13 : [error] : ERROR ... TokenExpiredError: jwt expired
+21 Nov 2019 19:41:46 : [info] : Listening on port 4000
+21 Nov 2019 19:41:46 : [info] : Connection has been established successfully.
+21 Nov 2019 19:47:49 : [info] : Listening on port 4000
+21 Nov 2019 19:47:49 : [info] : Connection has been established successfully.
+21 Nov 2019 19:48:33 : [info] : Listening on port 4000
+21 Nov 2019 19:48:33 : [info] : Connection has been established successfully.
+21 Nov 2019 19:49:47 : [info] : Listening on port 4000
+21 Nov 2019 19:49:47 : [info] : Connection has been established successfully.
+21 Nov 2019 19:57:52 : [info] : Listening on port 4000
+21 Nov 2019 19:57:52 : [info] : Connection has been established successfully.
+21 Nov 2019 23:29:38 : [info] : Listening on port 4000
+21 Nov 2019 23:29:38 : [info] : Connection has been established successfully.
+21 Nov 2019 23:30:36 : [info] : Listening on port 4000
+21 Nov 2019 23:30:36 : [info] : Connection has been established successfully.
+21 Nov 2019 23:43:38 : [error] : ERROR in bulk image delete. File name is My Manager/Business Manager/Transaction Images/1573956475401_mobile.jpeg...ReferenceError: publicId is not defined
+21 Nov 2019 23:50:48 : [info] : Listening on port 4000
+21 Nov 2019 23:50:48 : [info] : Connection has been established successfully.
+21 Nov 2019 23:51:07 : [info] : Listening on port 4000
+21 Nov 2019 23:51:07 : [info] : Connection has been established successfully.
+21 Nov 2019 23:51:54 : [info] : Listening on port 4000
+21 Nov 2019 23:51:54 : [info] : Connection has been established successfully.
+21 Nov 2019 23:52:56 : [info] : Listening on port 4000
+21 Nov 2019 23:52:56 : [info] : Connection has been established successfully.
+21 Nov 2019 23:54:42 : [info] : Listening on port 4000
+21 Nov 2019 23:54:42 : [info] : Connection has been established successfully.
+21 Nov 2019 23:55:28 : [error] : ERROR in bulk image delete. File name is 0...[object Object]
+21 Nov 2019 23:56:34 : [info] : Listening on port 4000
+21 Nov 2019 23:56:34 : [info] : Connection has been established successfully.
+21 Nov 2019 23:56:54 : [error] : ERROR in bulk image delete. File name is [object Object]...[object Object]
+21 Nov 2019 23:57:19 : [info] : Listening on port 4000
+21 Nov 2019 23:57:19 : [info] : Connection has been established successfully.
+21 Nov 2019 23:57:34 : [error] : ERROR in bulk image delete. File name is [object Object],[object Object]...[object Object]
+22 Nov 2019 00:00:25 : [info] : Listening on port 4000
+22 Nov 2019 00:00:25 : [info] : Connection has been established successfully.
+22 Nov 2019 00:00:33 : [error] : ERROR in bulk image delete. File name is [object Object],[object Object],[object Object]...{"message":"Missing required parameter - public_id","http_code":400}
+22 Nov 2019 00:04:51 : [info] : Listening on port 4000
+22 Nov 2019 00:04:51 : [info] : Connection has been established successfully.
+22 Nov 2019 00:04:56 : [info] : Listening on port 4000
+22 Nov 2019 00:04:56 : [info] : Connection has been established successfully.
+22 Nov 2019 00:05:05 : [error] : ERROR in bulk image delete. File name is [object Object],[object Object],[object Object],[object Object]...{"message":"Missing required parameter - public_id","http_code":400}
+22 Nov 2019 00:06:52 : [info] : Listening on port 4000
+22 Nov 2019 00:06:52 : [info] : Connection has been established successfully.
+22 Nov 2019 00:07:10 : [error] : ERROR in bulk image delete. File name is [object Object],[object Object],[object Object],[object Object],[object Object]...{"message":"Missing required parameter - public_id","http_code":400}
+22 Nov 2019 00:08:51 : [info] : Listening on port 4000
+22 Nov 2019 00:08:51 : [info] : Connection has been established successfully.
+22 Nov 2019 00:08:59 : [info] : Listening on port 4000
+22 Nov 2019 00:08:59 : [info] : Connection has been established successfully.
+22 Nov 2019 00:09:30 : [info] : Listening on port 4000
+22 Nov 2019 00:09:30 : [info] : Connection has been established successfully.
+22 Nov 2019 00:10:23 : [info] : Listening on port 4000
+22 Nov 2019 00:10:23 : [info] : Connection has been established successfully.
+22 Nov 2019 00:10:39 : [error] : ERROR in bulk image delete. File name is [object Object],[object Object]...{}
+22 Nov 2019 00:12:37 : [info] : Listening on port 4000
+22 Nov 2019 00:12:37 : [info] : Connection has been established successfully.
+22 Nov 2019 00:12:57 : [info] : Listening on port 4000
+22 Nov 2019 00:12:57 : [info] : Connection has been established successfully.
+22 Nov 2019 00:14:59 : [info] : Listening on port 4000
+22 Nov 2019 00:14:59 : [info] : Connection has been established successfully.
+27 Nov 2019 09:43:33 : [info] : Listening on port 4000
+27 Nov 2019 09:43:33 : [info] : Connection has been established successfully.
+09 Dec 2019 13:06:22 : [info] : Listening on port 4000
+09 Dec 2019 13:06:22 : [info] : Connection has been established successfully.
+09 Dec 2019 14:20:55 : [error] : ERROR ... TokenExpiredError: jwt expired
+10 Dec 2019 12:38:07 : [info] : Listening on port 4000
+10 Dec 2019 12:38:07 : [info] : Connection has been established successfully.
+10 Dec 2019 18:44:01 : [error] : uncaughtException: Cannot find module '../models/user/Users'
+Error: Cannot find module '../models/user/Users'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/config/passport.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+10 Dec 2019 18:44:32 : [info] : Listening on port 4000
+10 Dec 2019 18:44:32 : [info] : Connection has been established successfully.
+10 Dec 2019 18:44:59 : [info] : Listening on port 4000
+10 Dec 2019 18:44:59 : [info] : Connection has been established successfully.
+10 Dec 2019 18:45:08 : [info] : Listening on port 4000
+10 Dec 2019 18:45:08 : [info] : Connection has been established successfully.
+11 Dec 2019 10:23:21 : [info] : Listening on port 4000
+11 Dec 2019 10:23:21 : [info] : Connection has been established successfully.
+11 Dec 2019 10:40:38 : [info] : Listening on port 4000
+11 Dec 2019 10:40:38 : [info] : Connection has been established successfully.
+11 Dec 2019 10:41:35 : [error] : uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/D/PD/Mylarm/Mylarm-Backend/node_modules/express/lib/router/index.js:458:13)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/config/router.js:13:8)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:7:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+11 Dec 2019 10:42:40 : [info] : Listening on port 4000
+11 Dec 2019 10:42:40 : [info] : Connection has been established successfully.
+11 Dec 2019 10:43:00 : [info] : Listening on port 4000
+11 Dec 2019 10:43:00 : [info] : Connection has been established successfully.
+11 Dec 2019 10:44:31 : [info] : Listening on port 4000
+11 Dec 2019 10:44:31 : [info] : Connection has been established successfully.
+11 Dec 2019 10:45:21 : [info] : Listening on port 4000
+11 Dec 2019 10:45:21 : [info] : Connection has been established successfully.
+11 Dec 2019 11:24:07 : [error] : uncaughtException: Cannot find module '../../config/connection'
+Error: Cannot find module '../../config/connection'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/controllers/MylarmController.js:5:20)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/config/router.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:7:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+11 Dec 2019 11:24:11 : [info] : Listening on port 4000
+11 Dec 2019 11:24:11 : [info] : Connection has been established successfully.
+11 Dec 2019 11:31:57 : [info] : Listening on port 4000
+11 Dec 2019 11:31:57 : [info] : Connection has been established successfully.
+11 Dec 2019 11:33:27 : [info] : Listening on port 4000
+11 Dec 2019 11:33:27 : [info] : Connection has been established successfully.
+11 Dec 2019 11:34:21 : [info] : Listening on port 4000
+11 Dec 2019 11:34:21 : [info] : Connection has been established successfully.
+11 Dec 2019 11:34:45 : [error] : ERROR ... SequelizeDatabaseError: Table 'mylarm.contact_list' doesn't exist
+11 Dec 2019 11:34:57 : [info] : Listening on port 4000
+11 Dec 2019 11:34:57 : [info] : Connection has been established successfully.
+11 Dec 2019 11:35:58 : [info] : Listening on port 4000
+11 Dec 2019 11:35:58 : [info] : Connection has been established successfully.
+11 Dec 2019 11:36:04 : [info] : Listening on port 4000
+11 Dec 2019 11:36:04 : [info] : Connection has been established successfully.
+11 Dec 2019 11:37:05 : [info] : Listening on port 4000
+11 Dec 2019 11:37:06 : [info] : Connection has been established successfully.
+11 Dec 2019 11:38:49 : [info] : Listening on port 4000
+11 Dec 2019 11:38:49 : [info] : Connection has been established successfully.
+11 Dec 2019 11:38:51 : [info] : Listening on port 4000
+11 Dec 2019 11:38:51 : [info] : Connection has been established successfully.
+11 Dec 2019 11:38:55 : [info] : Listening on port 4000
+11 Dec 2019 11:38:55 : [info] : Connection has been established successfully.
+11 Dec 2019 11:39:07 : [info] : Listening on port 4000
+11 Dec 2019 11:39:07 : [info] : Connection has been established successfully.
+11 Dec 2019 11:41:10 : [info] : Listening on port 4000
+11 Dec 2019 11:41:10 : [info] : Connection has been established successfully.
+11 Dec 2019 11:41:15 : [error] : ERROR ... ReferenceError: sequelize is not defined
+11 Dec 2019 11:41:52 : [info] : Listening on port 4000
+11 Dec 2019 11:41:52 : [info] : Connection has been established successfully.
+11 Dec 2019 11:42:07 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 11:42:27 : [info] : Listening on port 4000
+11 Dec 2019 11:42:27 : [info] : Connection has been established successfully.
+11 Dec 2019 11:42:31 : [info] : Listening on port 4000
+11 Dec 2019 11:42:31 : [info] : Connection has been established successfully.
+11 Dec 2019 11:43:30 : [info] : Listening on port 4000
+11 Dec 2019 11:43:30 : [info] : Connection has been established successfully.
+11 Dec 2019 12:23:46 : [info] : Listening on port 4000
+11 Dec 2019 12:23:46 : [info] : Connection has been established successfully.
+11 Dec 2019 12:23:57 : [info] : Listening on port 4000
+11 Dec 2019 12:23:57 : [info] : Connection has been established successfully.
+11 Dec 2019 12:24:46 : [info] : Listening on port 4000
+11 Dec 2019 12:24:46 : [info] : Connection has been established successfully.
+11 Dec 2019 12:24:55 : [info] : Listening on port 4000
+11 Dec 2019 12:24:55 : [info] : Connection has been established successfully.
+11 Dec 2019 12:25:37 : [info] : Listening on port 4000
+11 Dec 2019 12:25:37 : [info] : Connection has been established successfully.
+11 Dec 2019 12:31:47 : [info] : Listening on port 4000
+11 Dec 2019 12:31:47 : [info] : Connection has been established successfully.
+11 Dec 2019 12:34:21 : [info] : Listening on port 4000
+11 Dec 2019 12:34:21 : [info] : Connection has been established successfully.
+11 Dec 2019 12:40:59 : [info] : Listening on port 4000
+11 Dec 2019 12:40:59 : [info] : Connection has been established successfully.
+11 Dec 2019 12:42:03 : [info] : Listening on port 4000
+11 Dec 2019 12:42:03 : [info] : Connection has been established successfully.
+11 Dec 2019 12:42:43 : [info] : Listening on port 4000
+11 Dec 2019 12:42:43 : [info] : Connection has been established successfully.
+11 Dec 2019 12:43:55 : [info] : Listening on port 4000
+11 Dec 2019 12:43:55 : [info] : Connection has been established successfully.
+11 Dec 2019 12:45:20 : [info] : Listening on port 4000
+11 Dec 2019 12:45:20 : [info] : Connection has been established successfully.
+11 Dec 2019 12:46:20 : [info] : Listening on port 4000
+11 Dec 2019 12:46:20 : [info] : Connection has been established successfully.
+11 Dec 2019 12:46:38 : [error] : uncaughtException: Unexpected token )
+/D/PD/Mylarm/Mylarm-Backend/src/controllers/MylarmController.js:25
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/config/router.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:7:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+11 Dec 2019 12:47:17 : [info] : Listening on port 4000
+11 Dec 2019 12:47:17 : [info] : Connection has been established successfully.
+11 Dec 2019 12:55:25 : [info] : Listening on port 4000
+11 Dec 2019 12:55:25 : [info] : Connection has been established successfully.
+11 Dec 2019 12:56:05 : [info] : Listening on port 4000
+11 Dec 2019 12:56:05 : [info] : Connection has been established successfully.
+11 Dec 2019 13:10:59 : [error] : ERROR ... ReferenceError: User_Pwds is not defined
+11 Dec 2019 13:12:10 : [info] : Listening on port 4000
+11 Dec 2019 13:12:10 : [info] : Connection has been established successfully.
+11 Dec 2019 13:12:12 : [error] : ERROR ... Error: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt
+11 Dec 2019 13:12:52 : [info] : Listening on port 4000
+11 Dec 2019 13:12:52 : [info] : Connection has been established successfully.
+11 Dec 2019 13:12:54 : [error] : ERROR ... Error: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt
+11 Dec 2019 13:13:41 : [info] : Listening on port 4000
+11 Dec 2019 13:13:41 : [info] : Connection has been established successfully.
+11 Dec 2019 13:15:59 : [error] : uncaughtException: Cannot find module '../utility/Crypto'
+Error: Cannot find module '../utility/Crypto'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:9:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+11 Dec 2019 13:16:10 : [error] : uncaughtException: Cannot find module './utility/Crypto'
+Error: Cannot find module './utility/Crypto'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:9:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+11 Dec 2019 13:16:27 : [info] : Listening on port 4000
+11 Dec 2019 13:16:27 : [info] : Connection has been established successfully.
+11 Dec 2019 13:16:44 : [info] : Listening on port 4000
+11 Dec 2019 13:16:44 : [info] : Connection has been established successfully.
+11 Dec 2019 13:18:01 : [info] : Listening on port 4000
+11 Dec 2019 13:18:01 : [info] : Connection has been established successfully.
+11 Dec 2019 13:20:48 : [error] : ERROR ... TypeError: Cannot read property 'CONTACT_ID' of null
+11 Dec 2019 14:34:31 : [info] : Listening on port 4000
+11 Dec 2019 14:34:31 : [info] : Connection has been established successfully.
+11 Dec 2019 14:35:04 : [error] : ERROR ... SequelizeDatabaseError: Unknown column 'Sayesh' in 'field list'
+11 Dec 2019 14:36:01 : [error] : uncaughtException: Invalid or unexpected token
+/D/PD/Mylarm/Mylarm-Backend/src/controllers/MylarmController.js:22
+        query = 'insert into GROUP_MEMBERS (USER_ID,GROUP_ID,CONTACT_ID,MEMBER_NAME) values(' + user.USER_ID + ',' + body.GROUP_ID + ',' + contactId + ',"' + body.MEMBER_NAME + "');';
+                                                                                                                                                                                 ^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/src/config/router.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/D/PD/Mylarm/Mylarm-Backend/server.js:7:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+11 Dec 2019 14:36:23 : [info] : Listening on port 4000
+11 Dec 2019 14:36:23 : [info] : Connection has been established successfully.
+11 Dec 2019 14:36:28 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 14:37:28 : [info] : Listening on port 4000
+11 Dec 2019 14:37:28 : [info] : Connection has been established successfully.
+11 Dec 2019 14:37:30 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 14:37:58 : [info] : Listening on port 4000
+11 Dec 2019 14:37:58 : [info] : Connection has been established successfully.
+11 Dec 2019 14:38:02 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 14:38:17 : [info] : Listening on port 4000
+11 Dec 2019 14:38:17 : [info] : Connection has been established successfully.
+11 Dec 2019 14:41:29 : [info] : Listening on port 4000
+11 Dec 2019 14:41:30 : [info] : Connection has been established successfully.
+11 Dec 2019 14:42:09 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 14:43:26 : [info] : Listening on port 4000
+11 Dec 2019 14:43:26 : [info] : Connection has been established successfully.
+11 Dec 2019 14:43:58 : [info] : Listening on port 4000
+11 Dec 2019 14:43:59 : [info] : Connection has been established successfully.
+11 Dec 2019 14:49:25 : [info] : Listening on port 4000
+11 Dec 2019 14:49:25 : [info] : Connection has been established successfully.
+11 Dec 2019 14:49:30 : [info] : Listening on port 4000
+11 Dec 2019 14:49:30 : [info] : Connection has been established successfully.
+11 Dec 2019 14:51:59 : [info] : Listening on port 4000
+11 Dec 2019 14:51:59 : [info] : Connection has been established successfully.
+11 Dec 2019 14:52:05 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 14:53:53 : [info] : Listening on port 4000
+11 Dec 2019 14:53:53 : [info] : Connection has been established successfully.
+11 Dec 2019 14:54:13 : [error] : ERROR ... ReferenceError: isAlreadyMember is not defined
+11 Dec 2019 14:54:50 : [info] : Listening on port 4000
+11 Dec 2019 14:54:50 : [info] : Connection has been established successfully.
+11 Dec 2019 14:55:16 : [error] : ERROR ... Error: WHERE parameter "CONTACT_ID" has invalid "undefined" value
+11 Dec 2019 14:55:56 : [info] : Listening on port 4000
+11 Dec 2019 14:55:56 : [info] : Connection has been established successfully.
+11 Dec 2019 14:59:10 : [error] : ERROR ... SequelizeUniqueConstraintError: Validation error
+11 Dec 2019 15:01:34 : [info] : Listening on port 4000
+11 Dec 2019 15:01:34 : [info] : Connection has been established successfully.
+11 Dec 2019 15:03:51 : [info] : Listening on port 4000
+11 Dec 2019 15:03:51 : [info] : Connection has been established successfully.
+11 Dec 2019 15:10:17 : [info] : Listening on port 4000
+11 Dec 2019 15:10:17 : [info] : Connection has been established successfully.
+11 Dec 2019 15:14:36 : [info] : Listening on port 4000
+11 Dec 2019 15:14:36 : [info] : Connection has been established successfully.
+11 Dec 2019 15:16:32 : [error] : ERROR ... ReferenceError: USER_ID is not defined
+11 Dec 2019 15:17:15 : [info] : Listening on port 4000
+11 Dec 2019 15:17:15 : [info] : Connection has been established successfully.
+11 Dec 2019 17:29:18 : [info] : Listening on port 4000
+11 Dec 2019 17:29:18 : [info] : Connection has been established successfully.
+11 Dec 2019 17:37:55 : [info] : Listening on port 4000
+11 Dec 2019 17:37:55 : [info] : Connection has been established successfully.
+11 Dec 2019 17:38:25 : [info] : Listening on port 4000
+11 Dec 2019 17:38:25 : [info] : Connection has been established successfully.
+11 Dec 2019 17:39:08 : [info] : Listening on port 4000
+11 Dec 2019 17:39:08 : [info] : Connection has been established successfully.
+11 Dec 2019 17:40:25 : [info] : Listening on port 4000
+11 Dec 2019 17:40:25 : [info] : Connection has been established successfully.
+11 Dec 2019 17:40:41 : [info] : Listening on port 4000
+11 Dec 2019 17:40:41 : [info] : Connection has been established successfully.
+11 Dec 2019 17:41:00 : [info] : Listening on port 4000
+11 Dec 2019 17:41:00 : [info] : Connection has been established successfully.
+11 Dec 2019 17:41:41 : [info] : Listening on port 4000
+11 Dec 2019 17:41:41 : [info] : Connection has been established successfully.
+11 Dec 2019 17:43:12 : [info] : Listening on port 4000
+11 Dec 2019 17:43:12 : [info] : Connection has been established successfully.
+11 Dec 2019 17:44:23 : [info] : Listening on port 4000
+11 Dec 2019 17:44:23 : [info] : Connection has been established successfully.
+11 Dec 2019 17:56:57 : [info] : Listening on port 4000
+11 Dec 2019 17:56:57 : [info] : Connection has been established successfully.
+11 Dec 2019 17:57:03 : [info] : Listening on port 4000
+11 Dec 2019 17:57:03 : [info] : Connection has been established successfully.
+11 Dec 2019 17:59:04 : [info] : Listening on port 4000
+11 Dec 2019 17:59:04 : [info] : Connection has been established successfully.
+11 Dec 2019 21:51:49 : [info] : Listening on port 4000
+11 Dec 2019 21:51:49 : [info] : Connection has been established successfully.
+11 Dec 2019 21:55:09 : [info] : Listening on port 4000
+11 Dec 2019 21:55:09 : [info] : Connection has been established successfully.
+11 Dec 2019 21:55:56 : [info] : Listening on port 4000
+11 Dec 2019 21:55:56 : [info] : Connection has been established successfully.
+11 Dec 2019 21:57:20 : [info] : Listening on port 4000
+11 Dec 2019 21:57:20 : [info] : Connection has been established successfully.
+11 Dec 2019 21:57:35 : [info] : Listening on port 4000
+11 Dec 2019 21:57:35 : [info] : Connection has been established successfully.
+11 Dec 2019 21:57:42 : [info] : Listening on port 4000
+11 Dec 2019 21:57:42 : [info] : Connection has been established successfully.
+11 Dec 2019 22:00:04 : [info] : Listening on port 4000
+11 Dec 2019 22:00:05 : [info] : Connection has been established successfully.
+11 Dec 2019 22:00:20 : [info] : Listening on port 4000
+11 Dec 2019 22:00:20 : [info] : Connection has been established successfully.
+11 Dec 2019 22:00:41 : [info] : Listening on port 4000
+11 Dec 2019 22:00:41 : [info] : Connection has been established successfully.
+11 Dec 2019 22:01:26 : [info] : Listening on port 4000
+11 Dec 2019 22:01:26 : [info] : Connection has been established successfully.
+11 Dec 2019 22:02:04 : [info] : Listening on port 4000
+11 Dec 2019 22:02:04 : [info] : Connection has been established successfully.
+11 Dec 2019 22:09:00 : [info] : Listening on port 4000
+11 Dec 2019 22:09:00 : [info] : Connection has been established successfully.
+11 Dec 2019 22:09:17 : [info] : Listening on port 4000
+11 Dec 2019 22:09:17 : [info] : Connection has been established successfully.
+11 Dec 2019 22:09:29 : [info] : Listening on port 4000
+11 Dec 2019 22:09:29 : [info] : Connection has been established successfully.
+11 Dec 2019 22:09:56 : [info] : Listening on port 4000
+11 Dec 2019 22:09:56 : [info] : Connection has been established successfully.
+11 Dec 2019 22:10:23 : [info] : Listening on port 4000
+11 Dec 2019 22:10:23 : [info] : Connection has been established successfully.
+11 Dec 2019 22:17:01 : [info] : Listening on port 4000
+11 Dec 2019 22:17:01 : [info] : Connection has been established successfully.
+11 Dec 2019 22:20:05 : [info] : Listening on port 4000
+11 Dec 2019 22:20:05 : [info] : Connection has been established successfully.
+11 Dec 2019 22:26:39 : [info] : Listening on port 4000
+11 Dec 2019 22:26:39 : [info] : Connection has been established successfully.
