@@ -15,12 +15,12 @@ app.use(cors());
 app.use(passport.initialize());
 require('./src/config/passport')(passport);
 
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, 'dist/Mylarm-UI')));
 
 app.use(router);
 
 app.use('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+  res.sendFile(path.join(__dirname, 'dist/Mylarm-UI/index.html'));
 });
 
 const port = process.env.PORT || 4000;
