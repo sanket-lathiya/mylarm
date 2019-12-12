@@ -41,17 +41,13 @@ AuthController.route('/verify-signup-otp').post(async function (req, res) {
             res.status(200).json({ status: 'fail', error: { errorMessage: 'Invalid OTP.' } });
             return;
         }
-        const newToken = jwt.sign({ user: decoded.user }, config.jwt_secret, {
-            //algorithm: config.algorithm,
-            expiresIn: 3600 // 1 h
-        });
         try {
             let user = decoded.user;
             let pwd = user.PWD;
             pwd = Crypto.encrypt(pwd);
             user.PWD = pwd;
             await Users.create(user);
-            res.redirect(config.app_url + '/login');
+            res.status(200).json({ status: 'success', data: {} });
         } catch (error) {
             logger.error("Error sending verification email to " + decoded.user.EMAIL_ID + error);
             res.status(500).json({ status: 'fail', error: { errorMessage: "Error sending verification email to " + decoded.user.EMAIL_ID } });
