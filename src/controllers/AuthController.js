@@ -135,7 +135,7 @@ AuthController.route('/update-pwd').post(async function (req, res) {
         const decoded = jwt.verify(token, config.jwt_secret);
         let newPwd = req.body.NEW_PWD;
         newPwd = Crypto.encrypt(newPwd);
-        await User_Pwds.update({ PWD: newPwd }, { where: { USER_ID: decoded.user.USER_ID } });
+        await Users.update({ PWD: newPwd }, { where: { USER_ID: decoded.user.USER_ID } });
         res.status(200).json({ status: 'success', data: {} });
     } catch (error) {
         logger.error("ERROR ... " + error);
@@ -148,14 +148,14 @@ AuthController.route('/change-pwd').post(passport.authenticate('jwt', { session:
         const userId = req.body.USER_ID;
         const oldPwd = req.body.OLD_PWD;
         let newPwd = req.body.NEW_PWD;
-        let userPwd = await User_Pwds.findOne({ where: { USER_ID: userId } });
+        let userPwd = await Users.findOne({ where: { USER_ID: userId } });
         userPwd = Crypto.decrypt(userPwd.PWD);
         if (oldPwd !== userPwd) {
             res.status(200).json({ status: 'fail', error: { errorMessage: 'Incorrect old password !' } });
             return;
         }
         newPwd = Crypto.encrypt(newPwd);
-        await User_Pwds.update({ PWD: newPwd }, { where: { USER_ID: userId } });
+        await Users.update({ PWD: newPwd }, { where: { USER_ID: userId } });
         res.status(200).json({ status: 'success', data: {} });
     } catch (error) {
         logger.error("ERROR ... " + error);
