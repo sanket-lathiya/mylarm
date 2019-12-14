@@ -34,5 +34,3 @@ connection.authenticate().then(() => {
 }).catch(error => {
   logger.error('Unable to connect to the database: ' + error);
 });
-
-
