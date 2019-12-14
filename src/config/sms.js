@@ -12,6 +12,16 @@ function sendOTP(to, OTP) {
         .catch(error => logger.error("Error while sending OTP " + OTP + " to " + to + ". , " + error));
 }
 
+function sendAlert(to, body) {
+    client.messages.create({
+        body: body,
+        from: '+17243052611',
+        to: to
+    }).then(message => logger.info("Alert sent to " + to + ".  , " + message.sid))
+        .catch(error => logger.error("Error while sending alert to " + to + ". , " + error));
+}
+
 module.exports = {
-    sendOTP
+    sendOTP,
+    sendAlert
 };

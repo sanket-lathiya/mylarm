@@ -94,7 +94,7 @@ AuthController.route('/verify-otp').post(async function (req, res) {
         const user = await Users.findOne({ where: { MOBILE_NUMBER: decoded.MOBILE_NUMBER } });
         const newToken = jwt.sign({ user }, config.jwt_secret, {
             //algorithm: config.algorithm,
-            expiresIn: 3600 // 1 h
+            expiresIn: 3600 * 12 // 12 h
         });
         res.status(200).json({ status: 'success', data: { user, accessToken: `Bearer ${newToken}` } });
     } catch (error) {
@@ -119,7 +119,7 @@ AuthController.route('/pwd-login').post(async function (req, res) {
         }
         const token = jwt.sign({ user }, config.jwt_secret, {
             //algorithm: config.algorithm,
-            expiresIn: 3600 // 1 h
+            expiresIn: 3600 * 12 // 12 h
         });
         res.status(200).json({ status: 'success', data: { user, accessToken: `Bearer ${token}` } });
     } catch (error) {
