@@ -82,8 +82,9 @@ MylarmController.route('/raise-alert').post(passport.authenticate('jwt', { sessi
         query = 'select MOBILE_NUMBER, GROUP_NAME from group_members GM join contact_lists CL on GM.contact_id=CL.contact_id join user_groups UG on GM.group_id=UG.group_id where GM.group_id=? and GM.user_id=?;';
         memberList = await connection.query(query, { replacements: [body.GROUP_ID, userId], type: sequelize.QueryTypes.SELECT });
         for (let member of memberList) {
-            sms.sendAlert(member.MOBILE_NUMBER, user.FIRST_NAME + ' ' + user.LAST_NAME + ' has raised an alert of ' + member.GROUP_NAME + '. Contact number is ' + user.MOBILE_NUMBER + '. Current location is ' + 'https://www.google.com/maps/search/?api=1&query=' + body.LATITUDE + "," + body.LONGITUDE);
-            call.call(member.MOBILE_NUMBER);
+            let message = user.FIRST_NAME + ' ' + user.LAST_NAME + ' has raised an alert of ' + member.GROUP_NAME + '. Contact number is ' + user.MOBILE_NUMBER + '. Current location is ' + 'https://www.google.com/maps/search/?api=1&query=' + body.LATITUDE + "," + body.LONGITUDE;
+            sms.sendAlert(member.MOBILE_NUMBER, message);
+            //call.call(member.MOBILE_NUMBER);
         }
         res.status(200).json({ status: 'success', data: {} });
     } catch (error) {
