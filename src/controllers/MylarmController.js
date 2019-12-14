@@ -84,7 +84,8 @@ MylarmController.route('/raise-alert').post(passport.authenticate('jwt', { sessi
         for (let member of memberList) {
             let message = user.FIRST_NAME + ' ' + user.LAST_NAME + ' has raised an alert of ' + member.GROUP_NAME + '. Contact number is ' + user.MOBILE_NUMBER + '. Current location is ' + 'https://www.google.com/maps/search/?api=1&query=' + body.LATITUDE + "," + body.LONGITUDE;
             sms.sendAlert(member.MOBILE_NUMBER, message);
-            //call.call(member.MOBILE_NUMBER);
+            let callMessage = "<Response><Say voice='alice'>" + user.FIRST_NAME + ' ' + user.LAST_NAME + ' has raised an alert of ' + member.GROUP_NAME + ". Please open a Mylarm app Or check your message box to know the location.</Say></Response>";
+            call.call(member.MOBILE_NUMBER, callMessage);
         }
         res.status(200).json({ status: 'success', data: {} });
     } catch (error) {

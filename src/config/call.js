@@ -3,10 +3,10 @@ const authToken = 'ecb7a2ad941abc1c9a45ef5d6df1b3b6';
 
 var client = require('twilio')(accountSid, authToken);
 
-function call(to) {
+function call(to, message) {
     client.calls
         .create({
-            url: 'http://demo.twilio.com/docs/voice.xml',
+            url: message,
             to: to,
             from: '+17243052611'
         }).then(call => logger.info("Calling... " + to + ". , " + + call.sid))
