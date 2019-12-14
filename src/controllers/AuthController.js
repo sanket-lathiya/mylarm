@@ -53,7 +53,6 @@ AuthController.route('/verify-signup-otp').post(async function (req, res) {
             res.status(500).json({ status: 'fail', error: { errorMessage: "Error sending verification email to " + decoded.user.EMAIL_ID } });
             return;
         }
-        res.status(200).json({ status: 'success', data: {} });
     } catch (error) {
         logger.error("ERROR ... " + error);
         res.status(500).json({ status: 'fail', error: { errorMessage: 'Something went wrong.' } });
